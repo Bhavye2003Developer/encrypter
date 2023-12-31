@@ -59,6 +59,26 @@ This command line application in Node.js allows you to encrypt and decrypt files
     node app.js -m "EncryptedMessageHere" --decrypt --key "your-custom-key"
     ```
 
+
+## Limitations
+
+This command line tool is designed for encrypting and decrypting text files (e.g., code files, `.txt`). It may not work effectively with non-text files (e.g., documents, presentations), proprietary formats, or large files.
+
+## File Categorization
+
+- **Supported File Types**:
+    - Text files (e.g., `.txt`)
+    - Code files (e.g., `.js`, `.java`)
+
+- **Unsupported File Types**:
+    - Documents (e.g., `.docx`, `.pdf`)
+    - Presentations (e.g., `.pptx`)
+    - Spreadsheets (e.g., `.xlsx`)
+
+Please use the tool for encrypting and decrypting textual content within supported file types.
+
+
+
 ### CryptoJS and AES
 
 [CryptoJS](https://cryptojs.gitbook.io/docs/) is a JavaScript library that provides cryptographic functionality, including the AES algorithm. AES (Advanced Encryption Standard) is a widely used symmetric encryption algorithm known for its security and efficiency.
