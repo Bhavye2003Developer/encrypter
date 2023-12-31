@@ -19,7 +19,7 @@ This command line application in Node.js allows you to encrypt and decrypt files
 2. Install dependencies:
 
     ```bash
-    cd your-repository
+    cd encrypter
     npm install
     ```
 
@@ -64,7 +64,3 @@ This command line application in Node.js allows you to encrypt and decrypt files
 [CryptoJS](https://cryptojs.gitbook.io/docs/) is a JavaScript library that provides cryptographic functionality, including the AES algorithm. AES (Advanced Encryption Standard) is a widely used symmetric encryption algorithm known for its security and efficiency.
 
 In this application, CryptoJS is used to perform AES encryption and decryption of files or messages.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
